@@ -1,0 +1,46 @@
+/*田冬雪 支付宝首页 格式 初始化*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 16px 'microsoft yahei';
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(51,51,51);
+}
+a:hover {
+    color: #00aaee;
+}
+button {
+    border: 0 none;
+    outline-style: none;
+}
+.fl_t {
+    float: left;
+}
+.fr_t {
+    float: right;
+}
+.clearfix_t:before,.clearfix_t:after {
+    content: '';
+    display: table;
+}
+.clearfix_t:after {
+    clear: both;
+}
+/*兼容ie*/
+.clearfix_t {
+    zoom: 1;
+}
+.w_t {
+    /*width: 90%;*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
